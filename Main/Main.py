@@ -19,10 +19,6 @@ def main():
 
     MLP = mlp(Xlarge, Xsmall, taxaAp, prec, neuroniosEsc)
 
-    # print(MLP.treinamento())
-
-    x = np.array(((5,5),(5,5)))
-    print(np.sum(x))
-    # print(1/(np.cosh(x)**2))
+    print(MLP.treinamento())
 
 main()
